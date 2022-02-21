@@ -1,0 +1,404 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: "Roboto", sans-serif;
+    background-color: var(--primary-color);
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+li {
+    margin: 15px 30px;
+}
+
+#icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-top: 10px;
+    animation-name: anima;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --tertiary-color: #C7B8DF;
+    --quartenary-color: #633334;
+}
+
+.dark-theme {
+    --primary-color: #1C1C27;
+    --secondary-color: #fff;
+    --tertiary-color: #745A75;
+    --quartenary-color: #FFBD4A;
+}
+
+.logo {
+    height: 30px;
+    margin: 15px 80px 80px 80px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    border-radius: 20%;
+    margin: 10px 10px 10px 10px;
+}
+
+#name {
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+
+section {
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0;
+}
+
+.section-0 {
+    width: 100%;
+    display: flex;
+    margin: 80px 0 30px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--secondary-color);
+}
+
+.section-0:hover {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translateX(-30px);
+    animation-timing-function: ease;
+
+}
+
+.section-info {
+    max-width: 500px;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 90px;
+}
+
+
+
+.cover-img {
+    height: 500px;
+    width: 600px;
+    margin: 40px;
+}
+
+.cover-img:hover {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.style-break {
+    width: 30px;
+    height: 7px;
+    background-color: #FFBD4A;
+    border-radius: 2.5px;
+    margin: 30px 0 30px 0;
+}
+
+.section-contact {
+    padding-bottom: 45px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Red Hat Display", sans-serif;
+    color: var(--secondary-color);
+}
+
+.section-contact:hover {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translateX(-90px);
+    animation-timing-function: ease;
+}
+
+.div-contact {
+    font-family: "Red Hat Display", sans-serif;
+    margin: 50px;
+    display: block;
+    text-align: center;
+}
+
+.p1 {
+    display: block;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.fale-comigo {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--quartenary-color);
+}
+
+.fale-comigo:hover {
+    color: #D177B1;
+}
+
+.btns-contato {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.btn-contato {
+    background-color: #8DB5B5;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: "Red Hat Display", sans-serif;
+    color: var(--secondary-color);
+    padding: 18px 20px;
+    border: none;
+    margin-left: 30px;
+}
+
+.btn-contato:hover {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section-second {
+    width: 300px;
+    height: 300px;
+}
+
+.avatar {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+.avatar:hover {
+    animation-name: anima;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.about-me {
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section-2 {
+    background-color: var(--tertiary-color);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    justify-content: left;
+}
+
+.section-2:hover {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translateX(-30px);
+    animation-timing-function: ease;
+}
+
+.info {
+    color: var(--secondary-color);
+    max-width: 500px;
+    margin: 30px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+
+    margin-left: 70px;
+}
+
+.sobre-mim {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--quartenary-color);
+}
+
+.sobre-mim:hover {
+    color: #D177B1;
+}
+
+.p2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: var(--quartenary-color);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#main {
+    box-shadow: 10px 10px 10px rebeccapurple;
+}
+
+.btn {
+    border: 0;
+    padding: 16px 20px;
+    font-size: 25px;
+    background-color: #EA6B6A;
+    width: 120px;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-weight: bold;
+}
+
+
+@keyframes anima {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.btn:hover {
+    background-color: #D177B1;
+}
+
+.btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+.input-section {
+    margin: 10px 0;
+    display: flex;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 0;
+}
+
+footer {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 24px;
+    height: 72px;
+    padding: 40px 0 25px;
+    background-color: rgb(43, 43, 43, 0.7);
+
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: #EA6B6A;
+}
+
+a:active {
+    color: purple;
+}
+
+.fa-solid {
+    margin: 4px;
+}
+
+@media only screen and (max-width: 700px) {
+    .section-info {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    footer {
+        background-color: #EA6B6A;
+    }
+}
+
+@keyframes slide {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.icon-js:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.4);
+}
+
+.icon-css:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.4);
+}
+
+.icon-html:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.4);
+}
+
+.icon-java:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.4);
+}
+
+.icon-vs:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.4);
+}
+
+.icon-github:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.4);
+}
